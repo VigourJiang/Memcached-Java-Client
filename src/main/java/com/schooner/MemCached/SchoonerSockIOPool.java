@@ -355,6 +355,9 @@ public class SchoonerSockIOPool {
 		}
 	}
 
+	/**
+	 * jfq, 此处构造一致性哈希表
+	 */
 	private void populateConsistentBuckets() {
 		// store buckets in tree map
 		consistentBuckets = new TreeMap<Long, String>();
